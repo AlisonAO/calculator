@@ -33,3 +33,10 @@ else if (calculator === "m") {
 	console.log(num1 * num2);
 }
 
+else if (calculator === "p") {
+	var num1 = prompt("Please enter your first number.");
+	var num2 = prompt("Please enter your second number.");
+	num1 = parseFloat(num1);
+	num2 = parseFloat(num2);
+	console.log(Math.pow(num1, num2)); 
+}
