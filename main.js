@@ -40,3 +40,15 @@ else if (calculator === "p") {
 	num2 = parseFloat(num2);
 	console.log(Math.pow(num1, num2)); 
 }
+
+else if (calculator === "sq") {
+	var num1 = prompt("Please enter your number.");
+	console.log(Math.pow(num1, 2));
+}
+
+else {
+	console.log("Sorry, you can't be helped.")
+}
+
+
+	
