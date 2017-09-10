@@ -5,7 +5,7 @@ if (calculator === "a") {
 	var num2 = prompt("Please enter your second number.");
 	num1 = parseFloat(num1);
 	num2 = parseFloat(num2);
-	console.log(num1 + num2);
+	alert(num1 + num2);
 
 }
 
@@ -14,7 +14,7 @@ else if (calculator === "s") {
 	var num2 = prompt("Please enter your second number.");
 	num1 = parseFloat(num1);
 	num2 = parseFloat(num2);
-	console.log(num1 - num2);
+	alert(num1 - num2);
 }
 
 else if (calculator === "d") {
@@ -22,7 +22,7 @@ else if (calculator === "d") {
 	var num2 = prompt("Please enter your second number.");
 	num1 = parseFloat(num1);
 	num2 = parseFloat(num2);
-	console.log(num1 / num2);
+	alert(num1 / num2);
 }
 
 else if (calculator === "m") {
@@ -30,7 +30,7 @@ else if (calculator === "m") {
 	var num2 = prompt("Please enter your second number.");
 	num1 = parseFloat(num1);
 	num2 = parseFloat(num2);
-	console.log(num1 * num2);
+	alert(num1 * num2);
 }
 
 else if (calculator === "p") {
@@ -38,17 +38,16 @@ else if (calculator === "p") {
 	var num2 = prompt("Please enter your second number.");
 	num1 = parseFloat(num1);
 	num2 = parseFloat(num2);
-	console.log(Math.pow(num1, num2)); 
+	alert(Math.pow(num1, num2)); 
 }
 
 else if (calculator === "sq") {
 	var num1 = prompt("Please enter your number.");
-	console.log(Math.pow(num1, 2));
+	allert(Math.pow(num1, 2));
 }
 
 else {
-	console.log("Sorry, you can't be helped.")
+	alert("Sorry, you can't be helped.")
 }
 
 
-	
