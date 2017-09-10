@@ -1,4 +1,4 @@
-var calculator = prompt("Welcome to console calculator. Please select which operator you wish to use", "(a)ddition, (s)ubtraction, (d)ivision, (m)ultiplication, (sq)uare, (p)ower");
+var calculator = prompt("Welcome to Alert Calculator. Please select which operator you wish to use", "(a)ddition, (s)ubtraction, (d)ivision, (m)ultiplication, (sq)uare, (p)ower");
 
 if (calculator === "a") {
 	var num1 = prompt("Please enter your first number.");
