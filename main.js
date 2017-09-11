@@ -43,7 +43,7 @@ else if (calculator === "p") {
 
 else if (calculator === "sq") {
 	var num1 = prompt("Please enter your number.");
-	alert(Math.pow(num1, 2));
+	alert(Math.sqrt(num1));
 }
 
 else {
